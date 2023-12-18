@@ -13,7 +13,8 @@ public class d {
 
     }
 
-    static void list_Files (File F) {
+        static void list_Files (File F) {sFile()) {
+
         File[] file = F.listFiles();
         if (file != null) {
             for (File f : file) {
@@ -23,7 +24,6 @@ public class d {
                     sb.append(SPACE);
                 }
                 String prefix = sb.toString();
-                if (f.isFile()) {
                     System.out.print(prefix);
                     System.out.printf("%d.%s\n", i, f.getName());
                     i++;

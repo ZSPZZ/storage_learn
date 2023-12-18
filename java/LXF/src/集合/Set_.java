@@ -11,5 +11,15 @@ public class Set_ {
         System.out.println(set.contains("XYZ")); // false，元素不存在
         System.out.println(set.remove("hello")); // false，删除失败，因为元素不存在
         System.out.println(set.size()); // 2，一共两个元素
+
+        /*
+        if ((num % 7 == 0 && num % 11 != 0) || (num % 11 == 0 && num % 7 != 0)) {
+            return 1;
+        } else {
+            return 0;
+        }
+
+         */
     }
 }
+
